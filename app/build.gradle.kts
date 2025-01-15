@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "ro.pub.cs.systems.eim.testpracticaltest02v1"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "ro.pub.cs.systems.eim.testpracticaltest02v1"
@@ -42,6 +42,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.play.services.maps)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
